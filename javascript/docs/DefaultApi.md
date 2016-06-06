@@ -63,6 +63,11 @@ Get Server Info
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -85,7 +90,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -103,6 +108,11 @@ OAuth2 Authorize
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -132,7 +142,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -150,6 +160,11 @@ OAuth2 Revoke Token
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -179,7 +194,7 @@ null (empty response body)
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -197,6 +212,11 @@ OAuth2 Get Token
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -226,7 +246,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -244,6 +264,11 @@ Get Account Active (Recent) Calls
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -282,7 +307,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -300,6 +325,11 @@ Get Company Business Address
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -328,7 +358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -346,6 +376,11 @@ Get Account Call Log Record by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -377,7 +412,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -395,6 +430,11 @@ Get Account Call Log
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -445,7 +485,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -463,6 +503,11 @@ Get Extension Active (Recent) Calls
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -504,7 +549,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -522,6 +567,11 @@ Get Extension Call Log Record by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -556,7 +606,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -574,6 +624,11 @@ Get Extension Call Log
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -627,7 +682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -645,6 +700,11 @@ Create and Send Pager Message
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -680,7 +740,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -698,6 +758,11 @@ Create and Send Fax Message
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -733,7 +798,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -751,6 +816,11 @@ Get Forwarding Numbers
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -788,7 +858,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -806,6 +876,11 @@ Get Extension Info by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -837,7 +912,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -855,6 +930,11 @@ Get Message List
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -910,7 +990,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -928,6 +1008,11 @@ Get Message Attachment
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -965,7 +1050,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -983,6 +1068,11 @@ Delete Message by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1023,7 +1113,7 @@ null (empty response body)
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1041,6 +1131,11 @@ Get Message by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1075,7 +1170,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1093,6 +1188,11 @@ Update Message by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1131,7 +1231,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1149,6 +1249,11 @@ Get Extension Phone Numbers
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1188,7 +1293,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1206,6 +1311,11 @@ Get Extension Presence
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1237,7 +1347,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1255,6 +1365,11 @@ Initiate RingOut Call
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1290,7 +1405,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1308,6 +1423,11 @@ Cancel RingOut Call
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1342,7 +1462,7 @@ null (empty response body)
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1360,6 +1480,11 @@ Get RingOut Call Status
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1394,7 +1519,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1412,6 +1537,11 @@ Create and Send SMS Message
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1447,7 +1577,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1465,6 +1595,11 @@ Get Extension List
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1503,7 +1638,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1521,6 +1656,11 @@ Get Account Info by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1549,7 +1689,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1567,6 +1707,11 @@ Get Account Phone Numbers
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1603,7 +1748,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1621,6 +1766,11 @@ Get Phone Number by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1652,7 +1802,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1670,6 +1820,11 @@ Get Call Recording Content
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1701,7 +1856,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1719,6 +1874,11 @@ Get Call Recording Metadata
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1750,7 +1910,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1768,6 +1928,11 @@ Get Country by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1796,7 +1961,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1814,6 +1979,11 @@ Get Country List
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1849,7 +2019,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1867,6 +2037,11 @@ Get Supported Language List
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1889,7 +2064,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1907,6 +2082,11 @@ Get Language by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1935,7 +2115,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -1953,6 +2133,11 @@ Get Location List
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -1990,7 +2175,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2008,6 +2193,11 @@ Get State/Province List
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2043,7 +2233,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2061,6 +2251,11 @@ Get State/Province by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2089,7 +2284,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2107,6 +2302,11 @@ Get Time Zone List
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2138,7 +2338,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2156,6 +2356,11 @@ Get Time Zone by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2184,7 +2389,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2202,6 +2407,11 @@ Get API Version Info
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2224,7 +2434,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2242,6 +2452,11 @@ Create New Subscription
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2273,7 +2488,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2291,6 +2506,11 @@ Cancel Subscription by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2319,7 +2539,7 @@ null (empty response body)
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2337,6 +2557,11 @@ Get Subscription by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2365,7 +2590,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 
@@ -2383,6 +2608,11 @@ Update/Renew Subscription by ID
 ### Example
 ```javascript
 var RingCentralApi = require('ring-central-api');
+var defaultClient = RingCentralApi.ApiClient.default;
+
+// Configure OAuth2 access token for authorization: oauth
+var oauth = defaultClient.authentications['oauth'];
+oauth.accessToken = "YOUR ACCESS TOKEN"
 
 var apiInstance = new RingCentralApi.DefaultApi()
 
@@ -2417,7 +2647,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth)
 
 ### HTTP reuqest headers
 

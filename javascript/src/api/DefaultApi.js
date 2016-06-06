@@ -58,7 +58,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = ServerInfo;
@@ -99,7 +99,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault;
@@ -139,7 +139,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = null;
@@ -180,7 +180,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault1;
@@ -235,7 +235,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault2;
@@ -280,7 +280,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault3;
@@ -332,7 +332,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = CallLogInfo;
@@ -399,7 +399,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault2;
@@ -461,7 +461,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault2;
@@ -520,7 +520,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = CallLogInfo;
@@ -594,7 +594,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault2;
@@ -649,7 +649,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = MessageInfo;
@@ -704,7 +704,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = MessageInfo;
@@ -762,7 +762,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault5;
@@ -814,7 +814,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = ExtensionInfo;
@@ -890,7 +890,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault6;
@@ -956,7 +956,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = 'String';
@@ -1020,7 +1020,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = null;
@@ -1079,7 +1079,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = MessageInfo;
@@ -1141,7 +1141,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = MessageInfo;
@@ -1201,7 +1201,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault7;
@@ -1253,7 +1253,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = PresenceInfo;
@@ -1308,7 +1308,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = RingOutInfo;
@@ -1366,7 +1366,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = null;
@@ -1425,7 +1425,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = RingOutInfo;
@@ -1480,7 +1480,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = MessageInfo;
@@ -1535,7 +1535,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault4;
@@ -1580,7 +1580,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = AccountInfo;
@@ -1633,7 +1633,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault8;
@@ -1685,7 +1685,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = PhoneNumberInfo;
@@ -1737,7 +1737,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = 'String';
@@ -1789,7 +1789,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault9;
@@ -1834,7 +1834,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = FullCountryInfo;
@@ -1882,7 +1882,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault10;
@@ -1920,7 +1920,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault11;
@@ -1965,7 +1965,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = LanguageInfo;
@@ -2015,7 +2015,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault12;
@@ -2063,7 +2063,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault13;
@@ -2108,7 +2108,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = StateInfo;
@@ -2152,7 +2152,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = InlineResponseDefault14;
@@ -2197,7 +2197,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = TimezoneInfo;
@@ -2235,7 +2235,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = VersionInfo;
@@ -2278,7 +2278,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = SubscriptionInfo;
@@ -2322,7 +2322,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = null;
@@ -2367,7 +2367,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = SubscriptionInfo;
@@ -2417,7 +2417,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = SubscriptionInfo;
